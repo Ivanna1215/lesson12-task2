@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url(../fonts/Quicksand-Regular.otf);
+}
+.container {
+    background: url(../img/Vector\ Smart\ Object.png);
+    width: 400px;
+    height: 497px;
+    background-color: #4D33B7;
+    margin: 0 auto;
+}
+.nav {
+    border: 2px solid red;  
+display: flex;
+justify-content: space-evenly;
+
+
+}
+.a {
+    border: 2px solid green;
+    font-size: 18px;
+    color: #fbf6e4;
+    font-weight: 700;
+    font-family: "Quicksand";
+    margin-top: 55px;
+}
