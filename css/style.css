@@ -3,16 +3,28 @@
     src: url(../fonts/Quicksand-Regular.otf);
 }
 .container {
-    background: url(../img/Vector\ Smart\ Object.png);
+    background: url(../img/Vector\ Smart\ Object.png) center no-repeat;
     width: 400px;
     height: 497px;
     background-color: #4D33B7;
     margin: 0 auto;
+    padding-top: 50px;
+}
+.block-1 {
+    width: 80%;
+    border: 2px solid white;
+    margin: 0 auto;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
 }
 .nav {
     border: 2px solid red;  
 display: flex;
-justify-content: space-evenly;
+justify-content: space-between;
+margin-left: 0;
 
 
 }
@@ -22,5 +34,62 @@ justify-content: space-evenly;
     color: #fbf6e4;
     font-weight: 700;
     font-family: "Quicksand";
-    margin-top: 55px;
+    /* margin-top: 55px; */
+}
+.sign-in {
+/* border: 2px solid blue; */
+display: flex;
+flex-direction: column;
+}
+
+
+label {
+    font-size: 16px;
+color: #fbf6e4;
+font-weight: 700;
+font-family: "Quicksand";
+margin-bottom: 20px;
+
+}
+input {
+    width: 260px;
+    height: 42px;
+    background: rgba(255, 255, 255,0);
+    border-color: white;
+    /* border: white; */
+    /* outline: none; */
+}
+.chek-label {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+.LaB {
+    font-size: 13px;
+color: #fbf6e4;
+font-weight: 700;
+font-family: "Quicksand";
+border: 2px solid green;
+width: 120px;
+white-space: pre;
+margin: 0 auto;
+text-align: center;
+margin-top: 10px;
+}
+
+button {
+    width: 260px;
+    height: 42px;
+    background:#23AE92;
+    margin: 0 auto;
+}
+.text {
+    font-size: 13px;
+color: #b9b9cc;
+font-weight: 400;
+font-family: "Quicksand";
+}
+.footer {
+    display: flex;
+    justify-content:space-around;
 }
