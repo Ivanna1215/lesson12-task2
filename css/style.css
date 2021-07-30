@@ -19,9 +19,46 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+.sign-in {
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    /* display: none;  */
+    }
+    #sign{
+        display: none;  
+    }
+    #sign:target {
+        display: block; 
+    }
+
+#join {
+    border: 2px solid red;
+    margin:0 auto ;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70%;
+    display: none; 
+    /* opacity: 0; */
+    /* visibility: hidden; */
+}
+
+#join:target {
+    display: block; 
+}
+
+
+
+
 .nav {
     top: 20px;
     /* border: 2px solid red;   */
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 .a {
     /* border: 2px solid green; */
@@ -41,11 +78,7 @@ text-decoration: underline;
     visibility: hidden;
 }
 
-.sign-in {
-/* border: 2px solid blue; */
-display: flex;
-flex-direction: column;
-}
+
 
 label {
     font-size: 16px;
@@ -61,24 +94,32 @@ input {
    /* outline: none; */
    /* border: none; */
    color: white;
+   border-color: white;
 }
 .chek-label {
     /* border: 2px solid red; */
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 input:hover, :focus {
     outline: 0;
-    outline-offset: 0;
+    outline-offset: 0; 
+    border-color:#23AE92;
     
 }
+
+.check-label {
+    /* border: 2px solid blue; */
+    position: relative;
+}
+
 .checkbox {
     width: 20px;
     height: 20px;
     background:#23AE92;
    
 }
-.check-1 {
-    padding-bottom: 0;
+#check-1 {
+    margin-bottom: 20px;
     background:#23AE92;
 }
 
@@ -90,15 +131,16 @@ font-family: "Quicksand";
 /* border: 2px solid green; */
 width: 120px;
 white-space: pre;
-margin: 0 auto;
+position: absolute;
+left: 35px;
 text-align: center;
-margin-top: 10px;
+padding-top: 5px;
 }
 button {
     width: 260px;
     height: 42px;
     background:#23AE92;
-    /* margin: 0 auto; */
+  margin-bottom: 10px;
     color: white;
 }
 .text-1,.text-2 {
@@ -119,4 +161,20 @@ border-bottom: 2px solid gray;
     display: flex;
     justify-content:flex-start;
     /* border: 2px solid blueviolet; */
+}
+
+
+
+
+.join-button {
+    width: 260px;
+    height: 40px;
+    background:#23AE92;
+  margin-top: 20px;
+    color: white;
+}
+.input-join {
+    width: 260px;
+    height: 42px;
+    box-sizing: border-box;
 }
