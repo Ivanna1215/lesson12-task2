@@ -21,7 +21,7 @@
 }
 
 .sign-in {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     flex-direction: column;
     /* display: none;  */
@@ -34,7 +34,7 @@
     }
 
 #join {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin:0 auto ;
     margin-bottom: 50px;
     display: flex;
@@ -49,9 +49,6 @@
 #join:target {
     display: block; 
 }
-
-
-
 
 .nav {
     top: 20px;
